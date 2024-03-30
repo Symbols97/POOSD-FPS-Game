@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FPSGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8E83E2AB-E637-4656-9DE9-40C71AE964D5}</UniqueIdentifier>
+      <UniqueIdentifier>{80C997AA-5E46-4839-BE83-5BFED9218633}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FPSGame.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{993D3D6A-38D7-4A94-B68E-F8877CD46FA7}</UniqueIdentifier>
+      <UniqueIdentifier>{ACCDCEAF-8D28-497D-A47C-07123AB1A680}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\FPSGame">
-      <UniqueIdentifier>{56D4A47E-CC0F-4D74-9968-F0C6524B0A24}</UniqueIdentifier>
+      <UniqueIdentifier>{D28DA29F-E5BD-443E-A128-700C18FD2702}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FPSGame\FPSCharacter.cpp">
       <Filter>Source\FPSGame</Filter>
@@ -46,6 +49,42 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\FPSGame\FPSGameGameModeBase.h">
       <Filter>Source\FPSGame</Filter>
+    </ClInclude>
+    <Filter Include="Source\FPSGame\Private">
+      <UniqueIdentifier>{A5ED3BC7-D9FF-46A3-A728-13B0DE9AA105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FPSGame\Private\EnemyFolder">
+      <UniqueIdentifier>{BB9DD37A-AE68-4345-99F0-F154A59D3C29}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPSGame\Private\EnemyFolder\AnimInstance_Enemy.cpp">
+      <Filter>Source\FPSGame\Private\EnemyFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPSGame\Private\EnemyFolder\Enemy.cpp">
+      <Filter>Source\FPSGame\Private\EnemyFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPSGame\Private\EnemyFolder\EnemyBird.cpp">
+      <Filter>Source\FPSGame\Private\EnemyFolder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPSGame\Private\EnemyFolder\EnemyHamster.cpp">
+      <Filter>Source\FPSGame\Private\EnemyFolder</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPSGame\Public">
+      <UniqueIdentifier>{39AADFA3-3D5A-4CED-AFD7-C5D4F5CF9D24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FPSGame\Public\EnemyFolder">
+      <UniqueIdentifier>{2907E3D9-D011-4FC3-BC60-9CB11DF4D173}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPSGame\Public\EnemyFolder\AnimInstance_Enemy.h">
+      <Filter>Source\FPSGame\Public\EnemyFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPSGame\Public\EnemyFolder\Enemy.h">
+      <Filter>Source\FPSGame\Public\EnemyFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPSGame\Public\EnemyFolder\EnemyBird.h">
+      <Filter>Source\FPSGame\Public\EnemyFolder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPSGame\Public\EnemyFolder\EnemyHamster.h">
+      <Filter>Source\FPSGame\Public\EnemyFolder</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
