@@ -6,6 +6,7 @@
 #include "EnemyFolder/Enemy.h"
 #include "EnemyFolder/EnemyHamster.h"
 #include "EnemyFolder/EnemyBird.h"
+#include "EnemyFolder/EnemyPig.h"
 
 
 void UAnimInstance_Enemy::UpdateAnimationProperties(float DeltaTime)

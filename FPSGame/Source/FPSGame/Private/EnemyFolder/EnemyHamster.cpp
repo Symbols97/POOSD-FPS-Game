@@ -19,5 +19,5 @@ AEnemyHamster::AEnemyHamster()
 //		OnComponentBeginOverlap (AttackSphere_EnemyHamster) is used and will run enemyMainAttack()
 void AEnemyHamster::enemyHamsterMainAttack()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Magenta, TEXT("Called from EnemyHamster class"));
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("Called from EnemyHamster class"));
 }
