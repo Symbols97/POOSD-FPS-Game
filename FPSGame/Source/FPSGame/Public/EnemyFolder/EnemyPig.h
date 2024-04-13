@@ -24,6 +24,10 @@ protected:
 	UFUNCTION(BlueprintCallable)
 	void enemyPigMainAttack();
 
+	// Get a random section name for the attack montage
+	UFUNCTION(BlueprintCallable)
+	FString enemyPigAttackName();
+
 
 private:
 
