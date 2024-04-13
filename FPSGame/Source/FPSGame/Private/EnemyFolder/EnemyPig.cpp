@@ -17,3 +17,18 @@ void AEnemyPig::enemyPigMainAttack()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, TEXT("Called from EnemyPig class"));
 }
+
+
+// This function is to be called from the blueprint to get a random section name for the attack montage
+FString AEnemyPig::enemyPigAttackName()
+{
+	// gets a random number from 1 to 3
+	int attackNumber = rand() % 3 + 1;
+
+	if (attackNumber == 1)
+		return "Attack Section";
+	else if (attackNumber == 2)
+		return "Forward";
+	else
+		return "Jump";
+}
