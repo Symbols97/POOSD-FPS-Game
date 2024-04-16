@@ -18,12 +18,20 @@ class FPSGAME_API AEnemyHamster : public AEnemy
 public:
 	AEnemyHamster();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Animation State");
+	bool hamsterReachPlayer;
+
+
 
 protected:
 	// For now it will only print a debug statement
 	UFUNCTION(BlueprintCallable)
 	void enemyHamsterMainAttack();
 
+
+	// Get a random section name for the attack montage
+	UFUNCTION(BlueprintCallable)
+	FString enemyHamsterAttackName();
 
 private:
 
