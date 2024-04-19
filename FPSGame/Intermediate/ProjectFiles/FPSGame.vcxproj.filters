@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FPSGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EBF1B857-A875-4266-B85D-D903F2B75ECE}</UniqueIdentifier>
+      <UniqueIdentifier>{4105C228-57FE-4978-AD74-2ED1E7568D14}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FPSGame.Target.cs">
       <Filter>Source</Filter>
@@ -11,10 +11,14 @@
     <None Include="..\..\Source\FPSGameEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\Clouds_and_Skies.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{142A9A94-96F6-448D-8557-C579B3371006}</UniqueIdentifier>
+      <UniqueIdentifier>{3E131DCA-F911-4D25-B5C0-90EAA2CA2F33}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -23,11 +27,14 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultGameplayTags.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FPSGame">
-      <UniqueIdentifier>{A11A9DAA-7A60-4145-880C-D7D159DBE316}</UniqueIdentifier>
+      <UniqueIdentifier>{06227DAD-D6B5-4989-B6EC-DBB64C285A43}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FPSGame\FPSCharacter.cpp">
       <Filter>Source\FPSGame</Filter>
@@ -51,10 +58,10 @@
       <Filter>Source\FPSGame</Filter>
     </ClInclude>
     <Filter Include="Source\FPSGame\Private">
-      <UniqueIdentifier>{58EF1091-8E75-4DC2-8266-31D78B636C3A}</UniqueIdentifier>
+      <UniqueIdentifier>{25046C6B-FD73-4752-8D2C-B5FC4A6F8F9E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\FPSGame\Private\EnemyFolder">
-      <UniqueIdentifier>{CADB7EBC-291F-42D0-96F6-BE5B67BA654E}</UniqueIdentifier>
+      <UniqueIdentifier>{B2B7DCD4-3CF6-4387-B1A3-4F9BC959FEE6}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FPSGame\Private\EnemyFolder\AnimInstance_Enemy.cpp">
       <Filter>Source\FPSGame\Private\EnemyFolder</Filter>
@@ -72,10 +79,10 @@
       <Filter>Source\FPSGame\Private\EnemyFolder</Filter>
     </ClCompile>
     <Filter Include="Source\FPSGame\Public">
-      <UniqueIdentifier>{C4AB9516-8A44-474F-93D6-81B80B1D1880}</UniqueIdentifier>
+      <UniqueIdentifier>{8678D342-4829-4680-BD37-5AD6A812F24C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\FPSGame\Public\EnemyFolder">
-      <UniqueIdentifier>{42BAF2F1-F6BF-4570-ABFD-342864CAD068}</UniqueIdentifier>
+      <UniqueIdentifier>{6BCC2778-A506-4311-8033-693EA0744845}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FPSGame\Public\EnemyFolder\AnimInstance_Enemy.h">
       <Filter>Source\FPSGame\Public\EnemyFolder</Filter>

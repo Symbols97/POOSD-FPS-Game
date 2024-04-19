@@ -28,6 +28,10 @@ protected:
 	UFUNCTION(BlueprintCallable)
 	FString enemyPigAttackName();
 
+	// Get attack sound effect
+	UPROPERTY(EditDefaultsOnly, Category = "Sound Effect");
+	class USoundBase* attackSound;
+
 
 private:
 
