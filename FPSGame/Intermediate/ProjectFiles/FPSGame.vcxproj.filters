@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FPSGame.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3864B9E4-500B-4504-85DF-23E8815EF632}</UniqueIdentifier>
+      <UniqueIdentifier>{4105C228-57FE-4978-AD74-2ED1E7568D14}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FPSGame.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\Clouds_and_Skies.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{C0A247EB-7677-4B64-A00B-D40C4EF4B374}</UniqueIdentifier>
+      <UniqueIdentifier>{3E131DCA-F911-4D25-B5C0-90EAA2CA2F33}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -34,7 +34,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FPSGame">
-      <UniqueIdentifier>{B7700F73-5AC0-4E59-967B-DAA60D73F4E5}</UniqueIdentifier>
+      <UniqueIdentifier>{06227DAD-D6B5-4989-B6EC-DBB64C285A43}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FPSGame\FPSCharacter.cpp">
       <Filter>Source\FPSGame</Filter>
@@ -58,10 +58,10 @@
       <Filter>Source\FPSGame</Filter>
     </ClInclude>
     <Filter Include="Source\FPSGame\Private">
-      <UniqueIdentifier>{C067FBD5-932D-4B1E-A7C9-1A074A676B72}</UniqueIdentifier>
+      <UniqueIdentifier>{25046C6B-FD73-4752-8D2C-B5FC4A6F8F9E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\FPSGame\Private\EnemyFolder">
-      <UniqueIdentifier>{3581FDF8-A033-4901-B90B-49A3BECD9D1F}</UniqueIdentifier>
+      <UniqueIdentifier>{B2B7DCD4-3CF6-4387-B1A3-4F9BC959FEE6}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\FPSGame\Private\EnemyFolder\AnimInstance_Enemy.cpp">
       <Filter>Source\FPSGame\Private\EnemyFolder</Filter>
@@ -79,10 +79,10 @@
       <Filter>Source\FPSGame\Private\EnemyFolder</Filter>
     </ClCompile>
     <Filter Include="Source\FPSGame\Public">
-      <UniqueIdentifier>{8843A69F-5422-4E27-A175-1D798F13DB63}</UniqueIdentifier>
+      <UniqueIdentifier>{8678D342-4829-4680-BD37-5AD6A812F24C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\FPSGame\Public\EnemyFolder">
-      <UniqueIdentifier>{DCFF0613-1315-4B65-A3D0-936E797AD3BD}</UniqueIdentifier>
+      <UniqueIdentifier>{6BCC2778-A506-4311-8033-693EA0744845}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\FPSGame\Public\EnemyFolder\AnimInstance_Enemy.h">
       <Filter>Source\FPSGame\Public\EnemyFolder</Filter>

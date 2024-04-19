@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{16E8DE84-8EC9-49B6-8A39-4A69FAC51F78}</ProjectGuid>
+    <ProjectGuid>{297BA15A-4E16-4578-84A7-215B3FA811F7}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>FPSGame</RootNamespace>
     <PlatformToolset>v143</PlatformToolset>
