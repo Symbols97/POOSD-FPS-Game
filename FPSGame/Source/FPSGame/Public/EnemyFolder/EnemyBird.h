@@ -24,6 +24,10 @@ protected:
 	UFUNCTION(BlueprintCallable)
 	void enemyBirdMainAttack();
 
+	// Get attack sound effect
+	UPROPERTY(EditDefaultsOnly, Category = "Sound Effect");
+	class USoundBase* attackSound;
+
 
 private:
 

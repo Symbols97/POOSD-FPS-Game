@@ -2,6 +2,9 @@
 
 
 #include "EnemyFolder/EnemyPig.h"
+#include "Components/ActorComponent.h"
+#include "Kismet/GameplayStatics.h"
+
 
 AEnemyPig::AEnemyPig()
 {
@@ -10,12 +13,16 @@ AEnemyPig::AEnemyPig()
 	baseDamage = 10;
 	currentHealth = 100;
 	maxHealth = 100;
+
+	attackSound = CreateDefaultSubobject<USoundBase>(TEXT("Attack Sound"));
 }
 
 
 void AEnemyPig::enemyPigMainAttack()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, TEXT("Called from EnemyPig class"));
+
+	UGameplayStatics::PlaySound2D(GetWorld(), attackSound, 1, 1, 0, NULL, false, true);
 }
 
 

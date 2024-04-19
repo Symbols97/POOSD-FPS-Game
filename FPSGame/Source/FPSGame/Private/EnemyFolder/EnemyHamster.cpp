@@ -2,6 +2,8 @@
 
 
 #include "EnemyFolder/EnemyHamster.h"
+#include "Components/ActorComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 
 AEnemyHamster::AEnemyHamster()
@@ -12,6 +14,8 @@ AEnemyHamster::AEnemyHamster()
 	currentHealth = 200;
 	maxHealth = 200;
 	hamsterReachPlayer = false;
+
+	attackSound = CreateDefaultSubobject<USoundBase>(TEXT("Attack Sound"));
 }
 
 
@@ -24,6 +28,8 @@ void AEnemyHamster::enemyHamsterMainAttack()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Yellow, TEXT("Called from EnemyHamster class"));
 	hamsterReachPlayer = true;
+
+	UGameplayStatics::PlaySound2D(GetWorld(), attackSound, 1, 1, 0, NULL, false, true);
 }
 
 

@@ -33,6 +33,11 @@ protected:
 	UFUNCTION(BlueprintCallable)
 	FString enemyHamsterAttackName();
 
+	// Get attack sound effect
+	UPROPERTY(EditDefaultsOnly, Category = "Sound Effect");
+	class USoundBase* attackSound;
+
+
 private:
 
 

@@ -2,6 +2,9 @@
 
 
 #include "EnemyFolder/EnemyBird.h"
+#include "Components/ActorComponent.h"
+#include "Kismet/GameplayStatics.h"
+
 
 AEnemyBird::AEnemyBird()
 {
@@ -10,6 +13,8 @@ AEnemyBird::AEnemyBird()
 	baseDamage = 5;
 	currentHealth = 40;
 	maxHealth = 40;
+
+	attackSound = CreateDefaultSubobject<USoundBase>(TEXT("Attack Sound"));
 }
 
 
@@ -17,4 +22,6 @@ AEnemyBird::AEnemyBird()
 void AEnemyBird::enemyBirdMainAttack()
 {
 	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Called from EnemyBird class"));
+
+	UGameplayStatics::PlaySound2D(GetWorld(), attackSound, 1, 1, 0, NULL, false, true);
 }
