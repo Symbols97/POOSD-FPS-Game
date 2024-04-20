@@ -18,6 +18,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	// Called to bind functionality to input
+	//virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
 	// Get methods of Enemy
 	FName getEnemyName();
 	float getBaseDamage();
@@ -52,6 +55,12 @@ protected:
 	// Maximum allowed health of enemy
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat")
 	float maxHealth;
+
+	/*
+	// For now it will only print a debug statement
+	UFUNCTION(BlueprintCallable)
+	void enemyMainAttack();
+	*/
 
 private:
 
