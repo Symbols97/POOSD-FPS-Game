@@ -20,7 +20,7 @@ AEnemyPig::AEnemyPig()
 
 void AEnemyPig::enemyPigMainAttack()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, TEXT("Called from EnemyPig class"));
+	// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Orange, TEXT("Called from EnemyPig class"));
 
 	UGameplayStatics::PlaySound2D(GetWorld(), attackSound, 1, 1, 0, NULL, false, true);
 }
