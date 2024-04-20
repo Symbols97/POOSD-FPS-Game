@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Jess\\source\\repos\\POOSD-FPS-Game1\\FPSGame\\Source\\FPSGame\\FPSGame.Build.cs",
+		"C:\\Users\\Jess\\source\\repos\\POOSD-FPS-Game1\\FPSGame\\Source\\FPSGame.Target.cs",
+		"C:\\Users\\Jess\\source\\repos\\POOSD-FPS-Game1\\FPSGame\\Source\\FPSGameEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
