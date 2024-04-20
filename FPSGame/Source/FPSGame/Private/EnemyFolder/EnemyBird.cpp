@@ -21,7 +21,7 @@ AEnemyBird::AEnemyBird()
 // This function can be called from the blueprint
 void AEnemyBird::enemyBirdMainAttack()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Called from EnemyBird class"));
+	// GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Called from EnemyBird class"));
 
 	UGameplayStatics::PlaySound2D(GetWorld(), attackSound, 1, 1, 0, NULL, false, true);
 }

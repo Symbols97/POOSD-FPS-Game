@@ -24,17 +24,6 @@ void AEnemy::BeginPlay()
 	
 }
 
-
-/*
-// This function can be called from the blueprint
-//		Example, In EnemyHamsterBP to check when enemy hamster is near the FPS character
-//		OnComponentBeginOverlap (AttackSphere_EnemyHamster) is used and will run enemyMainAttack()
-void AEnemy::enemyMainAttack()
-{
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Magenta, TEXT("Called from enemy class"));
-}
-*/
-
 // Called every frame
 void AEnemy::Tick(float DeltaTime)
 {
@@ -80,14 +69,3 @@ void AEnemy::setMaxHealth(float newMaxHealth){
 	maxHealth = newMaxHealth;
 }
 
-
-
-
-/*
-// Called to bind functionality to input
-void AEnemy::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-}
-*/

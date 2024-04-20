@@ -1,5 +1,8 @@
 .vs
-Build
-Binaries
-Saved
-CachedAssetRegistry.bin
+*.ini
+*.log
+FPSGame/Saved/Autosaves/PackageRestoreData.json
+FPSGame/Saved/Config/WorldState/2970928501.json
+FPSGame/Saved/AutoScreenshot.png
+FPSGame/Saved/Crashes/UE4CC-Windows-C114AAF941B454C3730F1FBE296A9D1B_0000/UE4Minidump.dmp
+FPSGame/Saved/Crashes/UE4CC-Windows-C114AAF941B454C3730F1FBE296A9D1B_0000/CrashContext.runtime-xml
